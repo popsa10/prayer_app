@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "114369216514",
+    "project_id": "prayerapp-b7c9c",
+    "storage_bucket": "prayerapp-b7c9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114369216514:android:bf345ccef156455e65e71b",
+        "android_client_info": {
+          "package_name": "com.example.prayer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114369216514-iabcpr61c4atcgtgf9io1q4ut5upg95r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prayer_app",
+            "certificate_hash": "67693bab56723481686f9d8257e8ade43a1d7464"
+          }
+        },
+        {
+          "client_id": "114369216514-e06kj1pdildmsd6m6t5m0nu1kvsl6bod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4W39dbAGCEhpZKslIi35oYrS-MFFzZS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114369216514-e06kj1pdildmsd6m6t5m0nu1kvsl6bod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
