@@ -11,7 +11,6 @@ class AuthCubit extends Cubit<AuthStates> {
       emit(SignInLoadingState());
       UserCredential userCredential =
           await FirebaseAuth.instance.signInAnonymously();
-      print(userCredential.user.email);
       emit(SignInSuccessState());
     } catch (error) {
       print("error is  $error");

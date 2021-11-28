@@ -59,6 +59,10 @@ Widget buildCustomTableCalender(
       startDay: DateTime(2010),
       endDay: DateTime(2030),
       calendarController: controller,
+      calendarStyle: const CalendarStyle(
+        highlightToday: true,
+        selectedColor: Colors.greenAccent,
+      ),
       initialCalendarFormat: CalendarFormat.week,
       onCalendarCreated: (first, last, format) {
         cubit.onDaySelected(value: first);
